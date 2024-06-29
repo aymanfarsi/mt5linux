@@ -1,4 +1,1 @@
-numpy
-plumbum
-pyparsing
-rpyc
+rpyc==6.0.0
