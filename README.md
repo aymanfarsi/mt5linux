@@ -19,7 +19,13 @@ pip install MetaTrader5
 pip install --upgrade MetaTrader5
 ```
 
-5. Install this package on both **Windows** and **Linux** Python versions:
+5. Install [rpyc](https://github.com/tomerfiliba-org/rpyc) version 6.0.0 in your Windows environment with Wine.
+
+```
+pip install "rpyc==6.0.0"
+```
+
+5. Install this package in **Linux** Python version:
 
 ```
 pip install mt5linux
@@ -31,7 +37,7 @@ Follow the steps:
 
 1. Open MetaTrader5.
 
-2. On **Windows** side, start the server on a terminal:
+2. Start the server from your linux terminal:
 
 ```
 python -m mt5linux <path/to/python.exe>
